@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$primary-color: #3c4859;
+$primary-t-color: #3c485938;
+$secondary-color: #DD6E42;
+$tertiary-color: #fff;
+$quaternary-color: #e1e2e7;
+
+$box-shadow-color: rgba(31,53,78,.11) 0 2px;
+
+$icon-activ-color: 3c4859;
+$icon-passiv-color: 14080E;
+
+$font-family: 'Roboto', sans-serif;
+
+$text-activ-color: 3c4859;
+$text-passiv-color: #9facbd;
+
+.header
+    box-shadow: $box-shadow-color
+    height: 80px
+    margin-bottom: 2px;  
+    
+
+.header__left
+        margin-top: 9px
+        width: 30%
+
+.header__right
+        margin-top: 22px
+        width: 70%
+
+.logo__img
+    width: 124px;
+    height: 60px;
+
+main
+    background: repeating-linear-gradient(135deg, rgba(86, 86, 86, 0.02) 0px, rgba(86, 86, 86, 0.02) 22px,rgba(202, 202, 202, 0.02) 22px, rgba(202, 202, 202, 0.02) 67px,rgba(247, 247, 247, 0.02) 67px, rgba(247, 247, 247, 0.02) 113px,rgba(135, 135, 135, 0.02) 113px, rgba(135, 135, 135, 0.02) 132px,rgba(157, 157, 157, 0.02) 132px, rgba(157, 157, 157, 0.02) 153px,rgba(53, 53, 53, 0.02) 153px, rgba(53, 53, 53, 0.02) 171px,rgba(17, 17, 17, 0.02) 171px, rgba(17, 17, 17, 0.02) 181px,rgba(179, 179, 179, 0.02) 181px, rgba(179, 179, 179, 0.02) 220px),repeating-linear-gradient(135deg, rgba(58, 58, 58, 0.02) 0px, rgba(58, 58, 58, 0.02) 41px,rgba(198, 198, 198, 0.02) 41px, rgba(198, 198, 198, 0.02) 60px,rgba(176, 176, 176, 0.02) 60px, rgba(176, 176, 176, 0.02) 99px,rgba(173, 173, 173, 0.02) 99px, rgba(173, 173, 173, 0.02) 146px,rgba(164, 164, 164, 0.02) 146px, rgba(164, 164, 164, 0.02) 167px,rgba(179, 179, 179, 0.02) 167px, rgba(179, 179, 179, 0.02) 205px,rgba(228, 228, 228, 0.02) 205px, rgba(228, 228, 228, 0.02) 230px,rgba(23, 23, 23, 0.02) 230px, rgba(23, 23, 23, 0.02) 241px),repeating-linear-gradient(135deg, rgba(190, 190, 190, 0.02) 0px, rgba(190, 190, 190, 0.02) 15px,rgba(74, 74, 74, 0.02) 15px, rgba(74, 74, 74, 0.02) 45px,rgba(98, 98, 98, 0.02) 45px, rgba(98, 98, 98, 0.02) 71px,rgba(43, 43, 43, 0.02) 71px, rgba(43, 43, 43, 0.02) 95px,rgba(131, 131, 131, 0.02) 95px, rgba(131, 131, 131, 0.02) 118px,rgba(21, 21, 21, 0.02) 118px, rgba(21, 21, 21, 0.02) 130px,rgba(77, 77, 77, 0.02) 130px, rgba(77, 77, 77, 0.02) 167px,rgba(231, 231, 231, 0.02) 167px, rgba(231, 231, 231, 0.02) 189px),linear-gradient(90deg, rgb(251, 251, 251),rgb(250, 250, 250))
+   
+.footer
+    height: 260px;
+    box-shadow: $box-shadow-color;
+    margin-top: 2px;
+
+.search_input
+    border: 1px solid $secondary-color;
+    border-radius: 10px 0 0 10px;
+    background-color: $tertiary-color;
+    width: auto;
+    height: 34px;
+    padding-bottom: 2px;
+    padding-left: 11px;
+
+
+.search_submit
+    border: none;
+    border-radius: 10px;
+    background-color: $secondary-color;
+    padding: 5px 16px;
+    margin-left: -12px;
+    color: $tertiary-color;
+    &:hover
+        background-color: $primary-color;
+
+
+.produt-card-wrap    
+    display: flex
+    flex-wrap: wrap
+
+.product-card
+    width: 32.73333%; 
+    margin: .3%    
+    display: flex
+    flex-wrap: wrap
+    background: white;    
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,.125);
+    transition: all .35s ease-out;
+
+.product-card-image
+    width: 100%
+    
+
+.product-card-text
+    width: 100%
+    padding: 10px
+    text-align: center
+    p        
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        
+.card-button
+        display: inline-block;
+        width: 50%;         
+        border: none;
+        border-radius: 10px;
+        background-color: $secondary-color;
+        padding: 5px 16px;       
+        color: $tertiary-color;
+        &:hover
+            background-color: $primary-color;
+
+.product-card-price
+    width: 100%
+    padding: 10px
+    text-align: center 
+    
+    p
+        display: inline-block;
+        width: 50%;
+        
+.product-card-view
+    margin: 0.3%
+    width: 99.4%      
+    background: white;    
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,.125);
+
+    span
+        margin: 5px
+    i           
+        font-size: 31px;
+        color: #dd6e42;
+ 
+        
+              
+
+.card-slider
+
+.card-slider-cards
+    margin: 35px 15px;
+
+
+
+
+.footer
+    background: linear-gradient(74deg, $primary-t-color 0%, $primary-t-color 13%,transparent 13%, transparent 64%,$primary-t-color 64%, $primary-t-color 71%,$primary-t-color 71%, $primary-t-color 100%),linear-gradient(170deg, $primary-t-color 0%, $primary-t-color 1%,transparent 1%, transparent 60%,$primary-t-color 60%, $primary-t-color 80%,$primary-t-color 80%, $primary-t-color 100%),linear-gradient(118deg, $primary-t-color 0%, $primary-t-color 30%,transparent 30%, transparent 43%,$primary-t-color 43%, $primary-t-color 47%,$primary-t-color 47%, $primary-t-color 100%),linear-gradient(249deg, $primary-t-color 0%, $primary-t-color 8%,transparent 8%, transparent 47%,$primary-t-color 47%, $primary-t-color 61%,$primary-t-color 61%, $primary-t-color 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255))
+
+.fi-items
+    background: white;
+    width: 312px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: all .35s ease-out;
+    div        
+        
+        overflow: hidden;        
+       
+.fi-item 
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+    ul
+        padding: 0
+    li
+        padding: 7px 43px        
+.fi-title 
+    display: block;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    font-size: 17px;
+    color: #3c3c3c;
+    position: relative;
+    border-bottom: 1px solid #d8d8d8
+
+.fi-list
+    display: none;
+    transition: display 1s, opacity 0.5s linear;
+    
+.fi-wrapper    
+    background-color: #f3f3f3
+    
+
+
+ul 
+    list-style: none;
+
+
+
+.order-form-cart
+    position: relative;
+    display: block;    
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    margin: 10px 0;
+
+    .order-header
+        border-bottom: 1px solid rgba(0,0,0,.125);
+        padding: .75rem 1.25rem;
+
+    .order-form
+        padding: .35rem 1%;
+        display: flex
+        flex-wrap: wrap
+
+        .input-container
+            margin: .5rem 1%
+            position: relative
+            overflow: hidden
+            z-index: 1
+            padding: 1px
+            border-radius: 7px
+            background: #ccc
+
+        input
+            color: slategray
+            box-sizing: border-box            
+            border-radius: 6px;
+            width: 100%
+            border: none;
+            padding: 0.2rem 0.5rem;
+            outline: none
+            z-index: 2
+
+        .input-border               
+            position: absolute;
+            content: ''
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 0%;
+            background: $primary-color
+            z-index: -1
+            transition: height 0.3s, width 0.3s 0.1s
+
+        input:focus ~ .input-border
+            width: 100%
+            height: 100%
+        
+    h3
+        margin-bottom: 0rem;
+        font-size: 0.95rem;
+    
+    .full
+        width: 98%
+
+    .triple 
+        width: 31.333333%        
+
+    .binary
+        width: 48%
+
+
+.shop-card
+    position: relative;
+    display: block;    
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    margin: 10px 0;
+    h3
+        margin-bottom: 0rem;
+        font-size: 0.95rem;
+
+.shop-card-header
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: .75rem 1.25rem;
+    
+
+.shop-card-list
+    padding: .35rem 4px;
+      
+
+.shop-card-item
+    display: flex  
+    width: 100%
+    margin: 1px    
+    div
+        text-align: center
+    .img
+        background-color: blue
+        flex: 0 0 60px
+        height: 60px
+        width: 60px
+    .text
+        width: 100%
+        margin: 17px 0;
+        
+
+    .quantity
+        margin: 17px 0;                
+        .buttons
+            display: flex
+            span
+                padding: 0
+            .btn                
+                border-radius: 3px                
+                width: 16px
+                height: 10px
+            .value
+                width: 30px
+                text-align: center
+                
+    .amount
+        width: 50%
+        margin: 17px 0;
+    .remove
+        margin: 11px 0;
+        margin-right: 5%
+        .button-remove
+.fas,.far
+    color: $quaternary-color
+    &:active                                                    
+        color: $primary-color
+    
+
+.prf
+.prf-header
+    background-color: $primary-color
+    height: 160px    
+    img
+        margin-top: 15px;
+        width: 130px; 
+        height: 130px; 
+        border: 1px solid rgba(0, 0, 0, 0.125); 
+        border-radius: 68px;
+    .container
+        display: flex
+        .h
+            display: inline-block
+            margin: 35px 0 0 35px;
+
+.prf-body
+    min-height: 600px
+    
+        
+    
+.prf-links
+
+.link-list
+    position: relative;
+    display: block;    
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-top: 20px;
+    border-radius: 5px;
+    
+
+.link-item
+    display: block  
+    color: $quaternary-color    
+    padding: 10px 15px    
+    &:hover
+        text-decoration: none
+        color: #fff;
+        background-color: $primary-color
+        border-radius: 5px;
+            
+
+.prf-router
+    margin-top: 20px;
+
+.order-header
+    margin-bottom: 20px
+.order-wraper
+    .order-wraper-item
+        display: block;    
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125)        
+        border-radius: 5px;
+        height: 60px        
+
+    .order-botom
+        background-color: red        
+        margin: 0 10px 20px 10px;
+        border-radius: 0 0 5px 5px;
+        height: 10px 
+
+    .order-list-item
+        display: block;
+        background-color: #fff;
+        margin: 0 10px;
+        padding: 1px 5px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+
+
+.intro-section
+    display: flex
+    height: 400px
+
+.menu-holder
+    width: 20%
+    display: block;    
+    background-color: #fff;
+    border-left: 1px solid rgba(0,0,0,.125)
+    border-right: 1px solid rgba(0,0,0,.125)
+    ul
+        margin: 0
+        padding: 0
+    li
+        padding: 10px 0 10px 50px
+    a
+        text-decoration: none         
+        color: $secondary-color        
+        &:hover
+            text-decoration: none
+            color: black
+                        
+
+.home-nav
+.nav-list
+.nav-list-item
+    
+.slider
+    width: 80%
+    height: 100%    
+
+    .carousel,.carousel-inner
+        height: 100%
+    
+
+
+produt-card-wrap
+    display: flex
+    flex-wrap: wrap
